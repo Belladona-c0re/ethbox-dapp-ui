@@ -8,6 +8,22 @@ import { ContractService } from '../../services/contract.service';
 })
 export class TopBarComponent {
 
-    constructor(public contractServ: ContractService) { }
+    isMenuUntouched = true;
+    areThereIncomingBoxes = false;
+    wasIncomingTouched = false;
+
+    constructor(public contractServ: ContractService) {
+        this.contractServ.incomingBoxes$
+            .subscribe(boxes => {
+
+                // This piece of code lights up a red dot on the button "Incoming" if there are incoming boxes that are not yet taken
+                if (!boxes || boxes.length == 0 || boxes.every(box => box.taken)) {
+                    this.areThereIncomingBoxes = false;
+                    return;
+                }
+                this.areThereIncomingBoxes = true;
+
+            });
+    }
 
 }

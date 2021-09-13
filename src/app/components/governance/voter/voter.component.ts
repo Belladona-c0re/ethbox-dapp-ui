@@ -10,6 +10,8 @@ export class VoterComponent implements OnInit {
 	@Input() voter;
 	@Input() isDetailedView;
 
+	alphabet = "abcdefghijklmnopqrstuvwxyz";
+
 	constructor() { }
 
 	ngOnInit(): void {

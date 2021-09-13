@@ -2,8 +2,8 @@
   <button
     data-bs-toggle="modal"
     [attr.data-bs-target]="'#' + randomId"
-    class="btn text-muted"
-    [disabled]="!(contractServ.isAppReady$ | async) ? 'disabled' : null"
+    class="btn text-white"
+    [disabled]="!(contractServ.isAppReady$ | async) || (loadingIndicatorServ.isLoading$ | async) ? 'disabled' : null"
   >
     <i class="bi bi-bookmarks-fill"></i>
   </button>
@@ -16,8 +16,8 @@
         <div class="flex-grow-1">
           <div class="d-flex justify-content-between mb-3">
             <div>
-              <h5 class="modal-title">Addresses</h5>
-              <small>There are {{ addresses.length }} addresses.</small>
+              <h5 class="modal-title">Address Book</h5>
+              <small>There are {{ addresses.length }} addresses saved.</small>
             </div>
             <button class="btn-close" data-bs-dismiss="modal"></button>
           </div>

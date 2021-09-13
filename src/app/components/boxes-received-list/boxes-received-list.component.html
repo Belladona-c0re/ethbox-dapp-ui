@@ -3,10 +3,9 @@
 <div class="main py-5 px-3">
   <!-- header -->
   <header class="container-medium text-center mb-5">
-    <h1>Received boxes</h1>
+    <h1>Incoming Transactions</h1>
     <p class="lead">
-      Here you can find the boxes that others have sent to you.<br />Withdrawals
-      can be redeemed, and exchanges can be accepted here.
+      All the boxes sent to you by others are listed here, and can easily be searched and filtered to only show open or completed transactions.
     </p>
   </header>
   <!-- end of header -->
@@ -22,9 +21,9 @@
           class="bg-lightalpha form-select rounded-alot"
           [disabled]="!isAppReady ? 'disabled' : null"
         >
-          <option value="" selected>Filter by state</option>
-          <option value="pending">Pending</option>
-          <option value="completed">Done</option>
+          <option value="" selected>Open / completed</option>
+          <option value="pending">Open</option>
+          <option value="completed">Completed</option>
         </select>
       </div>
       <div class="col">
@@ -34,9 +33,9 @@
           class="bg-lightalpha form-select rounded-alot"
           [disabled]="!isAppReady ? 'disabled' : null"
         >
-          <option value="" selected>Filter by type</option>
-          <option value="withdraw">Withdraw</option>
-          <option value="exchange">Exchange</option>
+          <option value="" selected>Type</option>
+          <option value="withdraw">One-way</option>
+          <option value="exchange">OTC Trade</option>
         </select>
       </div>
       <div class="col me-auto">
@@ -46,8 +45,8 @@
           class="bg-lightalpha form-select rounded-alot"
           [disabled]="!isAppReady ? 'disabled' : null"
         >
-          <option value="desc" selected>Date desc</option>
-          <option value="asc">Date asc</option>
+          <option value="desc" selected>Date: descending</option>
+          <option value="asc">Date: ascending</option>
         </select>
       </div>
       <!-- end of state, type and date -->
@@ -91,8 +90,10 @@
   <!-- boxes -->
   <div class="container-medium d-grid gap-2">
     <app-box-received
-      *ngFor="let box of paginatedBoxes; trackBy: identifier"
+      *ngFor="let box of paginatedBoxes; index as i; trackBy: identifier"
       [box]="box"
+      class="box"
+      style="--animation-order: {{ i }}"
     ></app-box-received>
   </div>
   <!-- end of boxes -->

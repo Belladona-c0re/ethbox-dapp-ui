@@ -4,7 +4,7 @@
       <div class="fs-2 text-eboxprimary">
         <span class="me-2">{{ title }}</span>
       </div>
-      <div>{{ proposals.length }} proposals</div>
+      <div>{{ proposals.length }} Votings</div>
     </div>
     <!-- end of header -->
 
@@ -28,10 +28,10 @@
                   [class.bi-arrows-collapse]="!proposal._isCollapsed"></i>
               </a>
               <small *ngIf="proposal.hasExpired">
-                (Expired)
+                (Finished)
               </small>
             </div>
-            <div>{{ proposal.answers.length }} choices</div>
+            <div>{{ proposal.answers.length }} Options</div>
           </div>
           <div>{{ proposal.question }}</div>
         </div>
@@ -42,7 +42,7 @@
           <!-- eligible users trigger -->
           <div class="text-center mt-3 mb-2">
             <a href="#eligibleUsers_{{proposal._id}}" class="text-reset" data-bs-toggle="modal">
-              Eligible users
+              Eligible voters
             </a>
           </div>
           <!-- end of eligible users trigger -->
@@ -52,12 +52,12 @@
             <div class="modal-dialog modal-dialog-scrollable">
               <div class="modal-content rounded-alot">
                 <div class="modal-header">
-                  <h5 class="modal-title">Eligible users</h5>
+                  <h5 class="modal-title">Eligible voters</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                   <div class="mb-3 text-center">
-                    <small>There are {{ proposal.eligibleUsers?.length }} eligible users</small>
+                    <small>There are {{ proposal.eligibleUsers?.length }} eligible voters.</small>
                   </div>
                   <app-voter *ngFor="let user of proposal.eligibleUsers" [voter]="user"></app-voter>
                 </div>

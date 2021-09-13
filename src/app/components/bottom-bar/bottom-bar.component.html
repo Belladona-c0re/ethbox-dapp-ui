@@ -4,19 +4,23 @@
       class="align-items-center bar-height col d-flex justify-content-center justify-content-md-start"
     >
       <a
-        href="https://info.uniswap.org/token/0x33840024177a7daca3468912363bed8b425015c5"
+        href="https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x33840024177a7daca3468912363bed8b425015c5&use=V2"
         target="_blank"
-        class="btn"
+        class="scale-on-hover btn fs-5"
       >
-        <img class="taptarget-height" src="assets/img/uniswap.png"
-      /></a>
+        <img class="taptarget-height" src="assets/img/uniswap.png"/>
+      </a>
       <a
-        href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x33840024177a7daca3468912363bed8b425015c5"
+        href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=BNB&outputCurrency=0x33840024177a7daca3468912363bed8b425015c5"
         target="_blank"
-        class="btn fs-5"
+        class="scale-on-hover btn fs-5"
       >
-        <img class="taptarget-height" src="assets/img/pancakeswap.png"
-      /></a>
+        <img class="taptarget-height" src="assets/img/pancakeswap.png"/>
+      </a>
+      <a class="btn">
+        <img *ngIf="!darkMode" (click)="toggleDarkMode()" style="height: 24px" src="assets/img/light-mode.png"/>
+        <img *ngIf="darkMode" (click)="toggleDarkMode()" style="height: 24px" src="assets/img/dark-mode.png"/>
+      </a>
     </div>
     <div
       class="align-items-center bar-height col d-flex justify-content-center justify-content-md-end"
@@ -24,21 +28,21 @@
       <a
         href="https://www.github.com/ethbox-official"
         target="_blank"
-        class="btn fs-3"
+        class="scale-on-hover btn fs-3"
       >
         <i class="bi bi-github"></i>
       </a>
       <a
         href="https://www.t.me/ethbox_official"
         target="_blank"
-        class="btn fs-3 text-info"
+        class="scale-on-hover btn fs-3 text-info"
       >
         <i class="bi bi-telegram"></i>
       </a>
       <a
         href="https://www.twitter.com/ethbox_official"
         target="_blank"
-        class="btn fs-3 text-info"
+        class="scale-on-hover btn fs-3 text-info"
       >
         <i class="bi bi-twitter"></i>
       </a>

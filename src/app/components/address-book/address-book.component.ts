@@ -1,6 +1,7 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { AddressBookService } from 'src/app/services/address-book.service';
 import { ContractService } from 'src/app/services/contract.service';
+import { LoadingIndicatorService } from 'src/app/services/loading-indicator.service';
 
 @Component({
     selector: 'app-address-book',
@@ -19,6 +20,7 @@ export class AddressBookComponent implements OnInit {
     filteredAddresses;
 
     constructor(
+        public loadingIndicatorServ: LoadingIndicatorService,
         public contractServ: ContractService,
         private addressBookServ: AddressBookService) { }
 

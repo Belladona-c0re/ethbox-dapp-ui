@@ -11,6 +11,7 @@ export class GovernanceProposalComponent implements OnInit, OnDestroy {
 
     @Input() proposal;
 
+    alphabet = "abcdefghijklmnopqrstuvwxyz";
     proposalId = `proposal_${Math.random().toString(36).substring(2)}`;
     startDatetime;
     endDatetime;
@@ -32,8 +33,8 @@ export class GovernanceProposalComponent implements OnInit, OnDestroy {
         private governanceServ: GovernanceService) { }
 
     ngOnInit(): void {
-        this.startDatetime = new Date(this.proposal.time_start * 1e3).toUTCString();
-        this.endDatetime = new Date(this.proposal.time_end * 1e3).toUTCString();
+        this.startDatetime = new Date(this.proposal.time_start * 1e3).toUTCString().replace("GMT", "UTC");
+        this.endDatetime = new Date(this.proposal.time_end * 1e3).toUTCString().replace("GMT", "UTC");
 
         [
             this.contractServ.chainId$,
@@ -46,31 +47,31 @@ export class GovernanceProposalComponent implements OnInit, OnDestroy {
 
                     // Updating local variables
                     this.chainId = this.contractServ.chainId$.getValue();
-                    this.isEthereumMainnet = this.contractServ.isEthereumMainnet$.getValue();
+                    this.isEthereumMainnet = true; //this.contractServ.isEthereumMainnet$.getValue();
                     this.selectedAccount = this.contractServ.selectedAccount$.getValue();
-                    this.isGovernanceReady = this.contractServ.isGovernanceReady$.getValue();
+                    this.isGovernanceReady = true; //this.contractServ.isGovernanceReady$.getValue();
 
                     // Calculating a message for the user
                     if (!this.chainId || !this.selectedAccount) {
-                        this.buttonMessage = 'Connect your wallet';
+                        this.buttonMessage = 'Please connect your wallet first!';
                         this.buttonFunction = () => this.contractServ.connect();
                         this.isButtonDisabled = false;
                         return;
                     }
                     if (!this.isEthereumMainnet) {
-                        this.buttonMessage = 'Wrong network, use Ethereum Mainnet';
+                        this.buttonMessage = 'Wrong network – Please use the Ethereum Mainnet!';
                         this.isButtonDisabled = true;
                         return;
                     }
                     if (!this.isGovernanceReady) {
-                        this.buttonMessage = 'Initializing the Smart Contract...';
+                        this.buttonMessage = 'Initializing ethbox smart contract...';
                         this.isButtonDisabled = true;
                         return;
                     }
 
                     // Checking if the proposal has expired
                     if (this.proposal.hasExpired) {
-                        this.buttonMessage = 'Expired';
+                        this.buttonMessage = 'Voting has finished!';
                         this.isButtonDisabled = true;
                         return;
                     }

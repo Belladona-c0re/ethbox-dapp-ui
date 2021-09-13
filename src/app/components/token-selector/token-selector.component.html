@@ -1,8 +1,8 @@
 <ng-container *ngIf="!tokens; else selectorReady">
   <!-- initial state -->
-  <button class="btn btn-eboxprimary rounded-alot text-end" disabled>
-    <div *ngIf="isBalanceEnabled">-</div>
-    <i class="bi bi-chevron-expand"></i> -
+  <button class="btn btn-eboxprimary rounded-alot w-100" disabled>
+    <div *ngIf="isBalanceEnabled">–</div>
+    <i class="bi bi-chevron-expand"></i> –
   </button>
 </ng-container>
 <ng-template #selectorReady>
@@ -11,9 +11,9 @@
     *ngIf="!selectedToken"
     data-bs-toggle="modal"
     [attr.data-bs-target]="'#' + randomId"
-    class="btn btn-eboxprimary rounded-alot text-end"
+    class="btn btn-eboxprimary rounded-alot w-100"
   >
-    <div *ngIf="isBalanceEnabled">-</div>
+    <div *ngIf="isBalanceEnabled">–</div>
     <i class="bi bi-chevron-expand"></i> Choose
   </button>
   <!-- selected state -->
@@ -21,7 +21,8 @@
     *ngIf="selectedToken"
     data-bs-toggle="modal"
     [attr.data-bs-target]="'#' + randomId"
-    class="btn btn-eboxprimary rounded-alot text-end"
+    class="btn btn-eboxprimary rounded-alot w-100"
+    [disabled]="(loadingIndicatorServ.isLoading$ | async) ? 'disabled' : null"
   >
     <ng-container *ngIf="isBalanceEnabled">
       <div *ngIf="isBalanceLoading">
@@ -31,13 +32,19 @@
         {{ selectedTokenBalance.decimalValue | toFixed: 3 }}
       </div>
     </ng-container>
-    <i class="bi bi-chevron-expand"></i> {{ selectedToken.symbol }}
+    <div class="d-flex align-items-center justify-content-center gap-1 text-uppercase">
+      <i class="bi bi-chevron-expand"></i>
+      {{ selectedToken.symbol }}
+      <img
+        [src]="selectedToken.thumb"
+        style="width: 1.5rem; height: 1.5rem">
+    </div>
   </button>
 </ng-template>
 
 <div [id]="randomId" class="modal">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content rounded-alot" style="height: 80vh">
+    <div class="modal-content rounded-alot" style="height: 90vh">
       <div class="modal-header">
         <div class="flex-grow-1">
           <div class="d-flex justify-content-between mb-3">
@@ -60,20 +67,24 @@
         </div>
       </div>
       <div class="modal-body">
-        <div class="text-center mb-3">
+        <div class="d-flex flex-column justify-content-center align-items-center gap-3 mb-3">
+          <button
+            (click)="customTokenPrompt()"
+            class="btn btn-outline-eboxprimary rounded-alot"
+            >
+            Add new token
+            <i class="bi bi-plus-circle"></i>
+          </button>
           <small class="text-muted">Select a token to show your balance</small>
         </div>
         <div
           *ngFor="let token of filteredTokens; trackBy: identifier"
-          [class.pe-none]="hardcodeDisable(token)"
-          [class.bg-disabled]="hardcodeDisable(token)"
           class="align-items-center btn-outline-eboxprimary border rounded-alot d-flex mb-3 p-3 position-relative"
         >
           <img
+            class="flex-shrink-0 me-2"
             [src]="token.thumb"
-            class="flex-shrink-0 me-3"
-            style="height: 25px"
-          />
+            style="width: 2rem; height: 2rem">
           <div class="text-truncate">
             <h5>
               <a
@@ -86,11 +97,16 @@
                 <small class="text-uppercase">{{ token.symbol }}</small>
               </a>
             </h5>
-            <small>{{ token.address }}</small>
+            <ng-container *ngIf="token.address === '0x0000000000000000000000000000000000000000'; else showTokenAddress">
+              <small>Network base token</small>
+            </ng-container>
+            <ng-template #showTokenAddress>
+              <small>{{ token.address }}</small>
+            </ng-template>
           </div>
         </div>
         <div class="text-center">
-          <small class="text-muted">Use the search to find more coins</small>
+          <small *ngIf="tokens && tokens.length > 20" class="text-muted">Use the search to find more coins</small>
         </div>
       </div>
     </div>

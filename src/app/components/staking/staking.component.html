@@ -6,12 +6,34 @@
     <h1>Staking rewards</h1>
     <p class="lead">
       To support those who support us, ethbox offers staking rewards for the
-      first 4 years after the token generation event (TGE) for everyone holding
+      first 4 years after the token generation event for everyone holding
       EBOX tokens.
     </p>
     <p>
-      For further understanding, please have a look at our <a class="text-reset" href="https://ethbox.medium.com/introducing-ebox-staking-rewards-4c65c07fc89d" target="_blank">Medium article</a> on staking rewards.
+      For details, find our staking model explained in this <a class="text-reset" href="https://ethbox.medium.com/introducing-ebox-staking-rewards-4c65c07fc89d" target="_blank">Medium article</a>.
     </p>
+    
+    <div *ngIf="selectedAccount" class=" py-3 fw-lighter">
+      <p>Use the switch to choose where to claim your staking rewards: either <b>Ethereum</b> or <b>Binance Smart Chain</b>!<br><i>(Default in case of no choice: Ethereum)</i></p>
+
+      <div *ngIf="selectedNetwork !== null">
+        <input type="checkbox" name="checkbox" class="switch" [checked]="selectedNetwork" #selectNetworkCheckbox (input)="rewardsToChain(selectNetworkCheckbox)">
+      </div>
+
+      <!-- <div class="d-grid d-md-flex justify-content-center gap-2">
+        <button 
+          class="btn btn-eboxprimary rounded-alot"
+          (click)="rewardsToChain(0)">
+          Get future rewards on Ethereum
+        </button>
+        <button 
+          class="btn btn-eboxprimary rounded-alot"
+          (click)="rewardsToChain(1)">
+          Get future rewards on BSC
+        </button>
+      </div> -->
+    </div>
+
   </header>
   <!-- end of header -->
 
@@ -32,14 +54,14 @@
       <div class="bg-lightalpha rounded-alot p-3">
 
         <header class="d-grid gap-2 text-center d-md-flex align-items-md-center justify-content-md-between mb-3">
-          <div class="fs-2 text-eboxprimary p-3">Hi {{ selectedAccount.slice(0, 7) + '...' + selectedAccount.slice(-5) }}!</div>
+          <div class="fs-4 text-truncate p-3">Hello {{ selectedAccount }}!</div>
           <button
             class="btn bgn-lg btn-eboxprimary rounded-alot text-uppercase"
             [disabled]="(!userRewardContract || userRewardContract < 1) ? 'disabled' : null"
             (click)="contractServ.claimReward()"
           >
-            <div>Click to claim</div>
-            <div>{{ userRewardContract | toFixed:0 }} EBOX</div>
+            <div>Claim</div>
+            <div>{{ userRewardContract | toFixed:2 }} EBOX</div>
           </button>
         </header>
 
@@ -50,7 +72,7 @@
         <div *ngIf="userRewardObjAPI" class="bg-eboxdark text-white p-3 rounded-alot shadow">
 
           <div class="d-grid gap-2 text-center d-md-flex align-items-md-center justify-content-md-between mb-3">
-            <div>This is a day-by-day view of your rewards</div>
+            <div>Staking rewards are shown as if payday was on the selected day.</div>
 
             <!-- pagination -->
             <ul class="pagination justify-content-center mb-0">
@@ -83,19 +105,19 @@
             <div class="col">
               <div class="p-3 border border-secondary rounded-alot">
                 <div>Balance in EBOX</div>
-                <div class="fs-5">{{ userRewardObjAPI.balance | toFixed: 0 }}</div>
+                <div class="fs-5">{{ userRewardObjAPI.balance | toFixed:2 }}</div>
               </div>
             </div>
             <div class="col">
               <div class="p-3 border border-secondary rounded-alot">
                 <div>Reward in EBOX</div>
-                <div class="fs-5">{{ userRewardObjAPI.reward | toFixed: 0 }}</div>
+                <div class="fs-5">{{ userRewardObjAPI.reward | toFixed:2 }}</div>
               </div>
             </div>
             <div class="col">
               <div class="p-3 border border-secondary rounded-alot">
                 <div>APY</div>
-                <div class="fs-5">{{ userRewardObjAPI.apy | toFixed: 0 }}%</div>
+                <div class="fs-5">{{ userRewardObjAPI.apy | toFixed:2 }}%</div>
               </div>
             </div>
           </div>
@@ -103,19 +125,19 @@
           <div class="row row-cols-1 row-cols-md-3 g-3">
             <div class="col">
               <div class="p-3 border border-secondary rounded-alot">
-                <div>Bonus DDIM</div>
+                <div>DuckDAO Bonus</div>
                 <div class="fs-5">{{ userRewardObjAPI.bonus_duck === '1' ? 'Yes' : 'No' }}</div>
               </div>
             </div>
             <div class="col">
               <div class="p-3 border border-secondary rounded-alot">
-                <div>Bonus LP</div>
+                <div>Liquidity Provider Bonus</div>
                 <div class="fs-5">{{ userRewardObjAPI.bonus_lp === '1' ? 'Yes' : 'No' }}</div>
               </div>
             </div>
             <div class="col">
               <div class="p-3 border border-secondary rounded-alot">
-                <div>Holder months bonus</div>
+                <div>Long-term Holder Months</div>
                 <div class="fs-5">{{ userRewardObjAPI.bonus_long_term_months }}</div>
               </div>
             </div>

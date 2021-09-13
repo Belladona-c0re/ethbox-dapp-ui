@@ -8,27 +8,37 @@
     <div class="d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between gap-3 p-3 position-relative">
       <div class="col-md-4 d-flex flex-column flex-md-row align-items-center">
         <img
-          *ngIf="!box.taken && box.requestValue === '0'"
-          class="taptarget-height"
+          *ngIf="!box.taken && box.hasPrivacy"
+          style="height: 64px"
+          src="assets/img/box-privacy-close.png"
+        />
+        <img
+          *ngIf="box.taken && box.hasPrivacy"
+          style="height: 64px"
+          src="assets/img/box-privacy-open.png"
+        />
+        <img
+          *ngIf="!box.taken && !box.hasPrivacy && box.requestValue === '0'"
+          style="height: 64px"
           src="assets/img/box-close.png"
         />
         <img
-          *ngIf="box.taken && box.requestValue === '0'"
-          class="taptarget-height"
+          *ngIf="box.taken && !box.hasPrivacy && box.requestValue === '0'"
+          style="height: 64px"
           src="assets/img/box-open.png"
         />
         <img
           *ngIf="!box.taken && box.requestValue !== '0'"
-          class="taptarget-height"
+          style="height: 64px"
           src="assets/img/boxes-exchange-close.png"
         />
         <img
           *ngIf="box.taken && box.requestValue !== '0'"
-          class="taptarget-height"
+          style="height: 64px"
           src="assets/img/boxes-exchange-open.png"
         />
-        <div class="ms-md-3 text-center text-md-end">
-          <div class="fs-4">{{ box.requestValue !== "0" ? "Exchange" : "Withdraw" }}</div>
+        <div class="ms-md-3 text-center text-md-start">
+          <div class="fs-4">{{ box.requestValue !== "0" ? "OTC Trade" : "One-way" }} {{ box.hasPrivacy ? "Privacy" : "" }}</div>
           <small class="text-muted">
             <a
               class="stretched-link text-reset text-decoration-none"
@@ -37,39 +47,49 @@
               (click)="onBoxToggle()"
             >
               <i class="bi {{ isExpanded ? 'bi-arrows-collapse' : 'bi-arrows-expand' }}"></i>
-              {{ isExpanded ? 'Close' : 'Open' }}
+              {{ isExpanded ? 'Collapse' : 'Expand' }}
             </a>
           </small>
         </div>
       </div>
-      <div
-        [class.text-eboxprimary]="!box.taken"
-        class="fs-5 text-end"
-      >
-        <div>
-          <span class="me-2">{{ 
-            box.sendDecimalValue.length < 7
-              ? box.sendDecimalValue
-              : box.sendDecimalValue.slice(0, 6) + '...'
-          }}</span>
-          <span class="font-monospace fw-bold">{{ box.sendTokenInfo.symbol }}</span>
+      <div class="fs-5 font-monospace flex-grow-1">
+        <div class="d-flex align-items-center justify-content-end gap-2">
+          <span>
+            {{ box.sendDecimalValue.length < 7 ? box.sendDecimalValue : box.sendDecimalValue.slice(0, 6) + '...' }}
+          </span>
+          <span class="fw-bold">
+            {{ box.sendTokenInfo.symbol }}
+          </span>
+          <img
+            *ngIf="box.sendTokenInfo.thumb"
+            [src]="box.sendTokenInfo.thumb"
+            style="width: 1.5rem; height: 1.5rem">
         </div>
-        <div *ngIf="box.requestValue !== '0'">
-          <span class="me-2">{{ 
-            box.requestDecimalValue.length < 7
-              ? box.requestDecimalValue
-              : box.requestDecimalValue.slice(0, 6) + '...'
-          }}</span>
-          <span class="font-monospace fw-bold">{{ box.requestTokenInfo.symbol }}</span>
+        <div *ngIf="box.requestValue !== '0'" class="d-flex align-items-center justify-content-end gap-2">
+          <span>
+            {{ box.requestDecimalValue.length < 7 ? box.requestDecimalValue : box.requestDecimalValue.slice(0, 6) + '...' }}
+          </span>
+          <span class="fw-bold">
+            {{ box.requestTokenInfo.symbol }}
+          </span>
+          <img
+            *ngIf="box.requestTokenInfo.thumb"
+            [src]="box.requestTokenInfo.thumb"
+            style="width: 1.5rem; height: 1.5rem">
         </div>
       </div>
       <div class="col-md-4 text-center text-md-end">
-        <div class="fs-4" *ngIf="box.addressBookName; else address">
-          {{ box.addressBookName.slice(0, 17) }}
+        <div 
+          *ngIf="!box.hasPrivacy"
+          class="fs-4"
+        >
+          <ng-container *ngIf="box.addressBookName; else address">
+            {{ box.addressBookName.slice(0, 17) }}
+          </ng-container>
+          <ng-template #address>
+            {{ box.recipient.slice(0, 8) }}...{{ box.recipient.slice(-6) }}
+          </ng-template>
         </div>
-        <ng-template #address>
-          {{ box.recipient.slice(0, 8) }}...{{ box.recipient.slice(-6) }}
-        </ng-template>
         <small class="text-muted">{{ box.readableTimestamp }}</small>
       </div>
     </div>
@@ -82,11 +102,21 @@
           <div class="text-muted d-flex align-items-end justify-content-between px-3">
             <small>
               To:
+              <span *ngIf="box.hasPrivacy">Private</span>
               <a
+                *ngIf="!box.hasPrivacy"
                 [href]="
-                  contractServ.isEthereum()
+                  contractServ.isEthereumMainnet()
                     ? 'https://etherscan.io/address/' + box.recipient
-                    : 'https://bscscan.com/address/' + box.recipient
+                    : contractServ.isEthereumTestnet()
+                      ? 'https://rinkeby.etherscan.io/address/' + box.recipient
+                      : contractServ.isBinanceMainnet()
+                        ? 'https://bscscan.com/address/' + box.recipient
+                        : contractServ.isBinanceTestnet()
+                          ? 'https://testnet.bscscan.com/address/' + box.recipient
+                          : contractServ.isMaticMainnet()
+                            ? 'https://polygonscan.com/address/' + box.recipient
+                            : 'https://mumbai.polygonscan.com/address/' + box.recipient
                 "
                 target="_blank"
                 class="text-reset"
@@ -95,12 +125,12 @@
                   {{ box.addressBookName.slice(0, 11) }}
                 </span>
                 <ng-template #address>
-                  {{ box.recipient.slice(0, 5) }}...{{ box.recipient.slice(-3) }}
+                  {{ box.recipient.slice(0, 8) }}...{{ box.recipient.slice(-6) }}
                 </ng-template>
               </a>
             </small>
             <small class="text-end">
-              Your balances
+              Your balance(s)
             </small>
           </div>
           <!-- end of mini-header -->
@@ -114,25 +144,42 @@
             [class.text-muted]="box.taken"
           >
             <div class="lead">
-              Sent
+              Value sent
             </div>
             <div class="fs-4">
               {{ box.sendDecimalValue }}
             </div>
-            <div
-              class="rounded-alot position-absolute top-50 translate-middle-y"
-              style="right: 1rem"
-            >
-              <div class="text-end">
+            <div class="token-info-wrapper rounded-alot text-end">
+              <div>
                 {{ sendTokenBalance?.decimalValue | toFixed: 3 }}
               </div>
-              <div class="d-flex align-items-center justify-content-end">
-                <img
-                  class="me-1"
-                  [src]="box.sendTokenInfo?.thumb"
-                  style="width: 1.25rem; height: 1.25rem"
-                />
+              <div class="d-flex align-items-center justify-content-end gap-2">
                 {{ box.sendTokenInfo?.symbol }}
+                <img
+                  *ngIf="box.sendTokenInfo.thumb"
+                  [src]="box.sendTokenInfo.thumb"
+                  style="width: 1.5rem; height: 1.5rem">
+              </div>
+              <div>
+                <a
+                  [href]="
+                    contractServ.isEthereumMainnet()
+                      ? 'https://etherscan.io/address/' + box.sendTokenInfo.address
+                      : contractServ.isEthereumTestnet()
+                        ? 'https://rinkeby.etherscan.io/address/' + box.sendTokenInfo.address
+                        : contractServ.isBinanceMainnet()
+                          ? 'https://bscscan.com/address/' + box.sendTokenInfo.address
+                          : contractServ.isBinanceTestnet()
+                          ? 'https://testnet.bscscan.com/address/' + box.sendTokenInfo.address
+                          : contractServ.isMaticMainnet()
+                            ? 'https://polygonscan.com/address/' + box.sendTokenInfo.address
+                            : 'https://mumbai.polygonscan.com/address/' + box.sendTokenInfo.address
+                  "
+                  target="_blank"
+                  class="text-reset text-break"
+                >
+                  {{ box.sendTokenInfo.address.slice(0, 8) }}...{{ box.sendTokenInfo.address.slice(-6) }}
+                </a>
               </div>
             </div>
           </div>
@@ -153,19 +200,37 @@
             <div class="fs-4">
               {{ box.requestDecimalValue }}
             </div>
-            <div
-              class="rounded-alot position-absolute top-50 translate-middle-y" style="right: 1rem"
-            >
-              <div class="text-end">
+            <div class="token-info-wrapper rounded-alot text-end">
+              <div>
                 {{ requestTokenBalance?.decimalValue | toFixed: 3 }}
               </div>
-              <div class="d-flex align-items-center justify-content-end">
-                <img
-                  class="me-1"
-                  [src]="box.requestTokenInfo?.thumb"
-                  style="width: 1.25rem; height: 1.25rem"
-                />
+              <div class="d-flex align-items-center justify-content-end gap-2">
                 {{ box.requestTokenInfo?.symbol }}
+                <img
+                  *ngIf="box.requestTokenInfo.thumb"
+                  [src]="box.requestTokenInfo.thumb"
+                  style="width: 1.5rem; height: 1.5rem">
+              </div>
+              <div>
+                <a
+                  [href]="
+                    contractServ.isEthereumMainnet()
+                      ? 'https://etherscan.io/address/' + box.requestTokenInfo.address
+                      : contractServ.isEthereumTestnet
+                        ? 'https://rinkeby.etherscan.io/address/' + box.requestTokenInfo.address
+                        : contractServ.isBinanceMainnet()
+                          ? 'https://bscscan.com/address/' + box.requestTokenInfo.address
+                          : contractServ.isBinanceTestnet()
+                          ? 'https://testnet.bscscan.com/address/' + box.requestTokenInfo.address
+                          : contractServ.isMaticMainnet()
+                            ? 'https://polygonscan.com/address/' + box.requestTokenInfo.address
+                            : 'https://mumbai.polygonscan.com/address/' + box.requestTokenInfo.address
+                  "
+                  target="_blank"
+                  class="text-reset text-break"
+                >
+                  {{ box.requestTokenInfo.address.slice(0, 8) }}...{{ box.requestTokenInfo.address.slice(-6) }}
+                </a>
               </div>
             </div>
           </div>
@@ -174,6 +239,7 @@
 
         <div *ngIf="!box.taken" class="text-end">
           <button
+            *ngIf="!box.hasPrivacy"
             (click)="contractServ.cancelBox(box.index)"
             class="col-12 col-md-auto btn btn-outline-eboxprimary rounded-alot"
             [disabled]="
@@ -182,7 +248,19 @@
                 : null
             "
           >
-            Cancel
+            Cancel box
+          </button>
+          <button
+            *ngIf="box.hasPrivacy"
+            (click)="contractServ.cancelBoxWithPrivacy(box.index)"
+            class="col-12 col-md-auto btn btn-outline-eboxprimary rounded-alot"
+            [disabled]="
+              (loadingIndicatorServ.isLoading$ | async)
+                ? 'disabled'
+                : null
+            "
+          >
+            Cancel privacy box
           </button>
         </div>
 

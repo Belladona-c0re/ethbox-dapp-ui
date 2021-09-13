@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+    .token-info-wrapper {
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        transform: translateY(-50%);
+    }
+}

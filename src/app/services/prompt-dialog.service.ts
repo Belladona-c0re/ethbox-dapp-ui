@@ -10,7 +10,7 @@ export class PromptDialogService {
 
     constructor() { }
 
-    spawn({ dialogName, message, inputs, submitButtonName, cancelButtonName }: PromptOptions) {
+    spawn({ dialogName, message, messageColor, inputs, submitButtonName, cancelButtonName }: PromptOptions) {
 
         if (!message) {
             throw new Error('Message is required.');
@@ -30,7 +30,7 @@ export class PromptDialogService {
 
         // Making the dialog
         let newEl = document.createElement('div');
-        newEl.innerHTML = this.getTemplate(randomId, dialogName, message, inputs, submitButtonName, cancelButtonName);
+        newEl.innerHTML = this.getTemplate(randomId, dialogName, message, messageColor, inputs, submitButtonName, cancelButtonName);
         let dialogWrapper: any = newEl.firstElementChild;
         let dialog = dialogWrapper.firstElementChild;
 
@@ -74,7 +74,7 @@ export class PromptDialogService {
         return closePromise;
     }
 
-    private getTemplate(id, dialogName, message, inputs, submitButtonName, cancelButtonName) {
+    private getTemplate(id, dialogName, message, messageColor = 'dark', inputs, submitButtonName, cancelButtonName) {
 
         let inputsTemplate = Object.entries<any>(inputs)
             .reduce((result, [fieldName, { type, label, value }]) => {
@@ -90,7 +90,7 @@ export class PromptDialogService {
                     <button onclick="onPrompt${id}(null)" class="btn-close"></button>
                 </header>
                 <div class="p-3 pb-0">
-                    <p>${message}</p>
+                    <p class="text-${messageColor}">${message}</p>
                     ${inputsTemplate}
                 </div>
                 <footer class="p-3 border-top text-end">

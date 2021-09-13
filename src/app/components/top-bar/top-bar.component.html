@@ -2,29 +2,36 @@
   class="align-items-center bar-height bg-lightalpha d-flex justify-content-between fixed-top px-3 shadow"
 >
   <div>
-    <button
-      class="btn me-3 position-relative"
-      data-bs-toggle="offcanvas"
-      data-bs-target=".offcanvas"
-    >
-      &#9776;
+    <div class="d-inline-block position-relative">
+      <button
+        class="btn me-3"
+        data-bs-toggle="offcanvas"
+        data-bs-target=".offcanvas"
+        (click)="isMenuUntouched = false"
+      >
+        &#9776;
+      </button>
       <div
-        *ngIf="contractServ.isAppReady$ | async"
-        class="position-absolute top-0 start-0 spinner-grow spinner-grow-sm text-danger"
-      ></div>
-    </button>
+        *ngIf="(contractServ.isAppReady$ | async) && (contractServ.isEthereumTestnet() || contractServ.isBinanceTestnet() || contractServ.isMaticTestnet()) && isMenuUntouched"
+        class="position-absolute p-3 bg-eboxdark text-white"
+        style="top: 33px!important; left: 33px!important; border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; border-top-right-radius: 1rem; width: 18ch; z-index: 1;"
+      >
+        Test tokens here!
+      </div>
+    </div>
     <a 
       href="#"
       routerLink="/send">
-      <img class="taptarget-height" src="assets/img/logo.png" />
+      <img class="d-inline-block d-lg-none taptarget-height" src="assets/img/logo.png" />
+      <img class="d-none d-lg-inline-block taptarget-height" src="assets/img/logo-text.png" />
     </a>
   </div>
 
   <!-- tabs nav -->
-  <div class="d-none d-md-flex align-items-center justify-content-center">
+  <div class="d-none d-lg-flex gap-3 align-items-center position-absolute start-50 translate-middle-x">
     <div
       routerLinkActive="tab-active"
-      class="btn btn-eboxprimary btn-skewed position-relative shadow me-lg-4 me-md-3"
+      class="btn btn-eboxprimary btn-skewed position-relative shadow"
     >
       <a
         href="#"
@@ -37,7 +44,7 @@
     </div>
     <div
       routerLinkActive="tab-active"
-      class="btn btn-eboxprimary btn-skewed position-relative shadow me-lg-4 me-md-3"
+      class="btn btn-eboxprimary btn-skewed position-relative shadow"
     >
       <a
         href="#"
@@ -50,7 +57,10 @@
     </div>
     <div
       routerLinkActive="tab-active"
-      class="btn btn-eboxprimary btn-skewed position-relative shadow me-lg-4 me-md-3"
+      class="btn btn-eboxprimary btn-skewed position-relative"
+      [class.shadow]="!areThereIncomingBoxes || wasIncomingTouched"
+      [class.btn-eboxpulser]="areThereIncomingBoxes && !wasIncomingTouched"
+      (click)="wasIncomingTouched = true"
     >
       <a
         href="#"
@@ -58,7 +68,7 @@
         class="stretched-link text-decoration-none text-uppercase text-reset"
       >
         <i class="bi bi-box-arrow-in-right"></i>
-        Received
+        Incoming
       </a>
     </div>
     <div
@@ -70,7 +80,7 @@
         routerLink="/boxes/sent"
         class="stretched-link text-decoration-none text-uppercase text-reset"
       >
-        Sent
+        Outgoing
         <i class="bi bi-box-arrow-right"></i>
       </a>
     </div>
@@ -100,6 +110,11 @@
       src="assets/img/binance.png"
       style="height: 21px"
     />
+    <img
+      *ngIf="contractServ.isMatic()"
+      src="assets/img/matic.png"
+      style="height: 21px"
+    />
     {{ contractServ.selectedAccount$ | async | slice: 0:6 }}...
     <i class="bi bi-x-circle"></i>
   </button>
@@ -119,11 +134,11 @@
   </div>
   <div class="links overflow-auto">
     <a
-      href="#"
+      href="/"
       class="p-3 d-block text-uppercase text-reset text-decoration-none"
     >
       <i class="bi bi-box-arrow-left me-1"></i>
-      Homepage
+      Main Site
     </a>
     <a
       href="#"
@@ -132,7 +147,7 @@
       class="p-3 d-block text-uppercase text-reset text-decoration-none"
     >
       <i class="bi bi-box me-1"></i>
-      Send a box
+      Send
     </a>
     <a
       href="#"
@@ -150,7 +165,7 @@
       class="p-3 d-block text-uppercase text-reset text-decoration-none"
     >
       <i class="bi bi-list-task me-1"></i>
-      Received boxes
+      Incoming
     </a>
     <a
       href="#"
@@ -159,7 +174,7 @@
       class="p-3 d-block text-uppercase text-reset text-decoration-none"
     >
       <i class="bi bi-clock-history me-1"></i>
-      Sent boxes
+      Outgoing
     </a>
     <a
       href="#"
@@ -181,7 +196,7 @@
     </a>
 
     <!-- token dispenser -->
-    <div *ngIf="contractServ.isAppReady$ | async" class="p-3">
+    <div *ngIf="(contractServ.isAppReady$ | async) && (contractServ.isEthereumTestnet() || contractServ.isBinanceTestnet() || contractServ.isMaticTestnet())" class="p-3">
       <div class="text-uppercase my-3 fst-italic">
         <div class="spinner-grow spinner-grow-sm text-danger me-1"></div>
         Get test tokens
@@ -189,21 +204,21 @@
       </div>
       <div class="d-grid gap-3 p-3">
         <button
-          (click)="contractServ.give100TestToken('AAA')"
+          (click)="contractServ.give100TestToken(0)"
           class="btn btn-outline-eboxprimary rounded-alot"
         >
           <span class="fs-5 me-2 text-warning">100</span>
           Token AAA
         </button>
         <button
-          (click)="contractServ.give100TestToken('BBB')"
+          (click)="contractServ.give100TestToken(1)"
           class="btn btn-outline-eboxprimary rounded-alot"
         >
           <span class="fs-5 me-2 text-warning">100</span>
           Token BBB
         </button>
         <button
-          (click)="contractServ.give100TestToken('CCC')"
+          (click)="contractServ.give100TestToken(2)"
           class="btn btn-outline-eboxprimary rounded-alot"
         >
           <span class="fs-5 me-2 text-warning">100</span>

@@ -18,14 +18,17 @@
       *ngFor="let answer of proposal.answers; let i = index"
       class="form-check"
     >
+      {{ alphabet[i] }})
       <input
+        [id]="proposalId + '-input-' + i"
         class="form-check-input"
         type="radio"
         (change)="selectedChoice = $event.target.value"
         [name]="proposalId + '_answers'"
         [value]="i + 1"
+        [disabled]="isButtonDisabled ? 'disabled' : ''"
       />
-      <label class="form-check-label mb-1">
+      <label [for]="proposalId + '-input-' + i" class="form-check-label mb-1">
         {{ answer.answer }}
       </label>
       <div *ngIf="proposal.votes" class="progress bg-light rounded-alot align-items-center">
@@ -46,7 +49,7 @@
 
     <div class="d-inline-flex flex-column align-items-center">
       <a href="#votersDetail_{{proposal._id}}" class="text-reset mb-2" data-bs-toggle="modal">
-        Voters details
+        Detailed voting results
       </a>
       <button
         [disabled]="isButtonDisabled ? 'disabled' : null"
@@ -65,12 +68,12 @@
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content rounded-alot">
         <div class="modal-header">
-          <h5 class="modal-title">Voters detail</h5>
+          <h5 class="modal-title">Detailled voting results</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
           <div class="mb-3 text-center">
-            <small>There were {{ proposal.votersDetail?.length }} votes casted</small>
+            <small>A total of {{ proposal.votersDetail?.length }} votes were cast.</small>
           </div>
           <app-voter *ngFor="let voter of proposal.votersDetail" [voter]="voter" [isDetailedView]="true"></app-voter>
         </div>

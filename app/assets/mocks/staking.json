@@ -1,0 +1,2834 @@
+[
+  {
+    "address": "0x42f5a392acb1c0ead1ed2f67bb9c625c4d5cca71",
+    "balance": "118906.2000",
+    "reward": "7586.2783",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbffafd0d497a2e47f2e41cd18d53dd5091233991",
+    "balance": "59290.7525",
+    "reward": "296.3423",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x083db0ba625b739af84a73d0c9da4cc7776f6787",
+    "balance": "6062.6386",
+    "reward": "219.8431",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xcce8d59affdd93be338fc77fa0a298c2cb65da59",
+    "balance": "8924.4220",
+    "reward": "440.4579",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5d72a4a9b0a541747e0155288bbbe851fc55821d",
+    "balance": "58747.4852",
+    "reward": "1374.9806",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe3c14271e10b41fdf603c845434493884a8db4d9",
+    "balance": "12206.6932",
+    "reward": "579.3583",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7d0e08cc2e6bf233795c3cd370fa91cdfc020913",
+    "balance": "9019.7770",
+    "reward": "310.7209",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x30d7c253edbf87a8a891d5faa2b101eb799006a0",
+    "balance": "14843.8333",
+    "reward": "175.7846",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa25f6094637fbc36e7b4c9f82a699b1e6fb8143e",
+    "balance": "5822.0172",
+    "reward": "10.5559",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0e1c5069bc3aef33c637fba89afdcfd5d088e4f5",
+    "balance": "121949.3868",
+    "reward": "1538.7260",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8dd07af19016e9a886e9eef09f3f16623e66e0fe",
+    "balance": "320688.4606",
+    "reward": "9303.0292",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd4041c02c34fdb6d2bdef039183e08058b004754",
+    "balance": "6660.2221",
+    "reward": "174.3194",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7b6c6cebe6d9bad428c3d22441f8b2314b8c2e3d",
+    "balance": "114530.4140",
+    "reward": "9412.4137",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xffe4bc135cc2a530129c6e4bfdf337e5c9d593cf",
+    "balance": "6350.6891",
+    "reward": "161.2018",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x06b4a167a25016a7f1080aa06980caf59284edab",
+    "balance": "7960.9778",
+    "reward": "187.6423",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x46a129d935afaf489b8c813c30828a944df3494c",
+    "balance": "39361.8813",
+    "reward": "1019.9413",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x73f205335e1915bc625a8f003ae4b7589f43d3c8",
+    "balance": "22558.9176",
+    "reward": "228.7174",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbdd7372dc77909ce4a2ca9e6b1ca8327c4edd85b",
+    "balance": "21625.0448",
+    "reward": "56.5119",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x830c71270413cbfdbb6a6cf68039b0b925a0ad91",
+    "balance": "5507.5999",
+    "reward": "9.9858",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2bd813c116bdfa06a064f75a56c72190e9584799",
+    "balance": "5865.3200",
+    "reward": "10.6344",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf81e7ac9ce471a642e1bdd85e8d8a6af9ddeb82a",
+    "balance": "5709.5074",
+    "reward": "10.3519",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb5f08c3690feb0d47b46f72470a55c7b640ed061",
+    "balance": "63932.3612",
+    "reward": "1986.0651",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xba996664ac3fab0ea24bf41c0016bac76517fd65",
+    "balance": "5807.0979",
+    "reward": "723.0515",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6742aff20f105471836e702e1b2e9f10faf0f61e",
+    "balance": "36651.3035",
+    "reward": "828.4916",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8446d4cca506d7ccb24936a6e469f7a1b1192539",
+    "balance": "52992.8602",
+    "reward": "730.5102",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe0f9ed799e7bf95c7fb96654acebbf8b9b438d5b",
+    "balance": "7092.2807",
+    "reward": "25.7180",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9aec9670dfcd9a86a54f41dc1a05f768858457f5",
+    "balance": "20844.4142",
+    "reward": "360.0239",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x91366ff2357e8654508a84857a396494d97465b8",
+    "balance": "6625.5173",
+    "reward": "70.3794",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5d3e6c26f7dfff1b07a8b70bf1dfa33d73a46f7c",
+    "balance": "5426.5206",
+    "reward": "19.6776",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x19665430ee7d45a509e31bb426a7194d9aee33c2",
+    "balance": "11325.4709",
+    "reward": "41.0684",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd2ddb0e1c223a873c77ee80497e9d82c1002e483",
+    "balance": "5000.0000",
+    "reward": "18.1310",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb156b789b42227a9beab82315b63bd8b4078621a",
+    "balance": "50000.0000",
+    "reward": "7216.1265",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1dbe623157f7cdf98771020e688f7bc25a2e9a21",
+    "balance": "12164.2643",
+    "reward": "606.2364",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xdb275501581fba334dcc08ca6a94e3ba8bc9f230",
+    "balance": "12259.4863",
+    "reward": "66.6829",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x069cd5f524db80b080c7a01277b081445d22dae7",
+    "balance": "204691.5286",
+    "reward": "15371.9425",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x863a3bd6f28f4f4a131c88708da91076fdc362c7",
+    "balance": "11227.4711",
+    "reward": "61.0695",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2321f6ac5ebd1f131f07b5933e5aac16f7c121a7",
+    "balance": "10000.0000",
+    "reward": "244.7681",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x614ec6d8deb8bb33290ab78f8070a9bc4898ef8e",
+    "balance": "50395.7328",
+    "reward": "1714.4770",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9b4b639c2106ddcc47f0e9c626b0e2b24dc98de7",
+    "balance": "6756.7124",
+    "reward": "46.9135",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbec279f0840af50dc037ec91fcc50c351611e076",
+    "balance": "5005.0000",
+    "reward": "27.2237",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb33928789192c343d9bb11af29c74942cc9b6941",
+    "balance": "121271.7335",
+    "reward": "7011.5625",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfaa96b6046555249381f2d259226372f6f5e7855",
+    "balance": "59127.6665",
+    "reward": "6999.1674",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xcb605dfdf4324e32609ce3c9e1873eff8d5b8f72",
+    "balance": "5298.0825",
+    "reward": "38.4238",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf1761dc812a4e53d927f9a6e6a246ae99af5901a",
+    "balance": "22772.8999",
+    "reward": "290.4664",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x37005c06afa5b9a422e3b0a7338885cf48e80e79",
+    "balance": "8069.1078",
+    "reward": "227.2702",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xef16b997ab3023d86549442bbd92c0de61878a05",
+    "balance": "6842.0423",
+    "reward": "305.4181",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3a896cd9ec18af7d1e50601bbffb99fa42f9f3d5",
+    "balance": "5045.4287",
+    "reward": "45.7393",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xed39a2d3a17c0377160b8aeba665e227e5ee511e",
+    "balance": "5191.7351",
+    "reward": "56.4787",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x26b7319f1e154a28a056abec17ecebe9d0b2d502",
+    "balance": "18946.6135",
+    "reward": "223.0355",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0393afb7c5a18e28ec9205ef685174eeff8b134c",
+    "balance": "25511.0000",
+    "reward": "277.5235",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb262befacff0790384bf323d005b941173565fd1",
+    "balance": "50044.3619",
+    "reward": "1340.5942",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf6c2a4583469a121e6e5aff611081235795b73b2",
+    "balance": "5000.0000",
+    "reward": "63.4584",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5d97b2b0550e893ae1b22ede17e2f338df382ef0",
+    "balance": "17539.7074",
+    "reward": "726.4740",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x85fd9341264ecab26d337ac9f525e1238c4bb733",
+    "balance": "9216.5901",
+    "reward": "116.9740",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x79eb85f849bc6768b8558ea532b932a6d430f9f8",
+    "balance": "5000.0000",
+    "reward": "63.4584",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9a79e2931fd84cc91b4f723bf979d2956dcc7a7d",
+    "balance": "9492.2518",
+    "reward": "153.1064",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1ff23fa37c48df5636b2f47c1ed6d6dbeb02ebbd",
+    "balance": "10000.0000",
+    "reward": "797.7627",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb9ae5efea0d548e29a9afd8e32f31a440d9e8588",
+    "balance": "5587.6041",
+    "reward": "81.0470",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x223a35433f3f87ef302fdfccd77777dd0cd51f80",
+    "balance": "15000.0000",
+    "reward": "1097.5010",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x343c3fe98fefa91cc99b6daa8ca57def4ce058da",
+    "balance": "5434.0560",
+    "reward": "78.8198",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x321715b3c2d9bd66bc7948803cae08d3cda9f24b",
+    "balance": "5418.0062",
+    "reward": "78.5870",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x80b23b59d3019da27113c05314fe16895b3c6404",
+    "balance": "22032.2215",
+    "reward": "774.1331",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x55f6e583372e8f4d49e8223dc1bff62a65731640",
+    "balance": "5027.2013",
+    "reward": "266.5224",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x32f15512417160a2bcf2b188bc52759e710bb701",
+    "balance": "10002.5447",
+    "reward": "400.2161",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8ced39c371af67845bd672d27c5ffcb682bea44e",
+    "balance": "5075.6900",
+    "reward": "365.8093",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9fe1a6df9ae29bc25f7d6199801de132b23cd6d4",
+    "balance": "5341.1137",
+    "reward": "264.7233",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2596a68e83f02ccf60511b5e1b8c529ca6aa010f",
+    "balance": "5192.1930",
+    "reward": "84.7256",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe221f2fb3833cf228cc32dff0241aa2a45695cd1",
+    "balance": "5020.3885",
+    "reward": "81.9221",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x843698414c1d27ecf2d8275da2b88611e22e2bc6",
+    "balance": "5093.3039",
+    "reward": "113.9418",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3f800e93fb3ea90d9e0fc794a11606bfe32d474b",
+    "balance": "37224.5184",
+    "reward": "607.4250",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x31d6a4b9490b3fc4597dfacb8a666e232aede5aa",
+    "balance": "10000.0000",
+    "reward": "163.1787",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x49cb3d8eb84f2a3d8708ae5a85b22c416b5aed3b",
+    "balance": "11426.3568",
+    "reward": "263.5815",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc438f2791223dd1492080410dc6361eb347c0cb8",
+    "balance": "20398.4360",
+    "reward": "868.0677",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf76d86d004046e8120570a3c5f3af02364a10e90",
+    "balance": "5115.2677",
+    "reward": "83.4703",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x168a445273975955417bbd4b026c338e2b312d77",
+    "balance": "28959.6948",
+    "reward": "1029.0495",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf01c97451750f9e990b29a7fc905100a4f02efa3",
+    "balance": "10369.4879",
+    "reward": "255.1337",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xaa5d617cd4213c04f836b882f0d671f0e7af0823",
+    "balance": "5000.0000",
+    "reward": "81.5894",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x158f55afc21bda75b8926e2deb2dfadf7e93e500",
+    "balance": "11872.0823",
+    "reward": "213.6307",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2a1ea66b31cc619d787e3d69b28d9a9312752166",
+    "balance": "5395.1132",
+    "reward": "88.0368",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5f6a4215fe729870a437f29d3b3278e27c8789b0",
+    "balance": "33316.3381",
+    "reward": "4120.4805",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5c340b845431589fc4b7d3af2d7221c5adc8cba5",
+    "balance": "10907.7751",
+    "reward": "197.7686",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3f80e9fb0a4c3359305fc7c4c0267c967d4ba47c",
+    "balance": "58256.4789",
+    "reward": "2446.8009",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xde8a0cb991b329ac7f426104f1d5cb58018c70d3",
+    "balance": "5050.4841",
+    "reward": "91.5702",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5d2e911cf8a7e6029592dc9d4aff0c1812c31562",
+    "balance": "6000.0000",
+    "reward": "108.7858",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9f37a171c7980f5882dcb9924e223a41b87d9f03",
+    "balance": "19689.0657",
+    "reward": "356.9819",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa83c572c8072f3b11562f08b89d4f3077682acdb",
+    "balance": "6000.0000",
+    "reward": "119.6644",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd42cf5b1e34c0ecb75020d46c97b070c215e18b6",
+    "balance": "7390.4055",
+    "reward": "147.3948",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd8693b782dd15ea964014bd4a2697a4a87b14f29",
+    "balance": "13006.6858",
+    "reward": "259.4062",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3a842f2b46f57f7114b4952db54207d9cb06c88b",
+    "balance": "10928.3221",
+    "reward": "217.9552",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x49f68a2e845f5d05740c4919bbf34697be11af55",
+    "balance": "5742.9523",
+    "reward": "150.8592",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1140db8108fd2e6060e400521242cd92fab68264",
+    "balance": "10898.0099",
+    "reward": "217.3507",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x194f0fe6d4dfbf198868b1b507cd74122fbfebcc",
+    "balance": "6000.0000",
+    "reward": "119.6644",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1985c5b2495842770538e3c0ec9c2fd61179598c",
+    "balance": "5054.5538",
+    "reward": "100.8084",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x27a9bcc243fb164d89a09dfdb2b89c10a023573c",
+    "balance": "9374.4850",
+    "reward": "186.9654",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd17e507c02e2a1c00cbdf05f9ca5566dbdea844c",
+    "balance": "5039.2710",
+    "reward": "100.5036",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xaaf1c2498e36d02ab2bbc32f90fb8cfced8ee63a",
+    "balance": "5036.3636",
+    "reward": "100.4456",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3bcaf0e5ce72d293509cb930214819ef538b962e",
+    "balance": "7151.3340",
+    "reward": "174.1442",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa93bc72f8d3e5c8cee76bceecfce60b7b2de1d34",
+    "balance": "5071.1050",
+    "reward": "110.3329",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8218aa848b37974bea00818143038b23232608c2",
+    "balance": "20839.0744",
+    "reward": "453.3992",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2bc9ac4305e2c971a1853456ed08f3bdfabf6823",
+    "balance": "9780.2642",
+    "reward": "212.7908",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd1587ed2f82b21875d9b0ef66a4f1e17262df825",
+    "balance": "50005.0000",
+    "reward": "2357.2620",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb62dd38fb7d2bfbef4c32fef218204800aaea42c",
+    "balance": "5803.5442",
+    "reward": "136.7911",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3aaa3aad206cea1a53832f30d177e1654a422d58",
+    "balance": "5000.7937",
+    "reward": "287.5970",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x78afc546e255f6f0ca59609790aa5df6ed237021",
+    "balance": "8556.3520",
+    "reward": "201.6755",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x343302b82807ae16d3ba6bb64a974bc9ad4822f9",
+    "balance": "6390.2189",
+    "reward": "150.6191",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf7dd0f4c19697d6dbbcff4c475ba0d2724601802",
+    "balance": "6596.1377",
+    "reward": "155.4727",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x54de88b98e0ae90bd252bbb8c79feb199caeb2dc",
+    "balance": "9146.0473",
+    "reward": "215.5747",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf8787412b828cfb1671bff62e08733e1ec57d4fc",
+    "balance": "16394.7314",
+    "reward": "467.3640",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd7fcf5b4feacae6d5bf8574d000452ad871fa38b",
+    "balance": "5000.0000",
+    "reward": "117.8513",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe9f6a99948cf64df6ed2bfbc63408ccc6bd8ed8d",
+    "balance": "5121.3674",
+    "reward": "129.9975",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfc5480d57c7dbff406bc8ad7044bdae7a8fedecb",
+    "balance": "5000.0000",
+    "reward": "126.9168",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5b9dac9f5db96420814e4c5dd7b5b9f87b9e8e9f",
+    "balance": "20628.6611",
+    "reward": "752.2329",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1a1d8a4da8d4c67e13c7ab22ea403ba747943cd4",
+    "balance": "5001.7857",
+    "reward": "126.9621",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x20c2331ebfefb165bccb9f68c2d68d1ca504bb10",
+    "balance": "12346.4838",
+    "reward": "380.6665",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x24f7e97861947d89140aa07fa4959a834628f1fa",
+    "balance": "6071.7348",
+    "reward": "154.1210",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x46ac61b69389b7ef2d51bf27e98c6ec764781c54",
+    "balance": "6518.6074",
+    "reward": "165.4642",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xedb03b64df05cf02b8641ee8a4b1d94dc26228f6",
+    "balance": "37857.2143",
+    "reward": "1745.6503",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xafb864a879a6e6440c84143040fded33c2032afc",
+    "balance": "9220.3204",
+    "reward": "244.0597",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe023c8ca7209167c7212a333ba96d3489e9e1124",
+    "balance": "5893.2907",
+    "reward": "149.5915",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x36c38f1371a443e3806ff519b97344fefa43a85a",
+    "balance": "13532.4927",
+    "reward": "472.4948",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbd1ccbf4c0f686619c196d497ad66a6b3c6a9cc6",
+    "balance": "12908.7660",
+    "reward": "527.8449",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xaab91ea05b2d915e244a13755e8f075da6087358",
+    "balance": "15230.0431",
+    "reward": "386.5897",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc074887d140e276a8b892222f925440eaf3ff40b",
+    "balance": "5086.4379",
+    "reward": "138.3331",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xace75f15b6db31f3c014577417b5773d8524df1d",
+    "balance": "15002.1866",
+    "reward": "491.6309",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x39aff19aebb48dead5b4e70d07d480fbc7ae4b46",
+    "balance": "10000.0000",
+    "reward": "451.4612",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3d54cbc4c76a2ba2921bfdff4ab540f5e4e5fae6",
+    "balance": "5000.0000",
+    "reward": "135.9823",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd56c7a69e301195eec457ad6b2316f50d377e3e9",
+    "balance": "5200.0000",
+    "reward": "141.4216",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf0c6d96bd624d0ed968af39df96e72efc5f948a6",
+    "balance": "20000.0544",
+    "reward": "831.5165",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb32b951513b32f30905afaae5517963fd8ea850c",
+    "balance": "5000.0000",
+    "reward": "135.9823",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xcb0cff1baf853a2970e8fa1d7df33a6db0e2b3fd",
+    "balance": "20023.8764",
+    "reward": "813.9282",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbb4dc79a14ae707587ca20702baaf10f9760146e",
+    "balance": "6000.0000",
+    "reward": "163.1787",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x428c9cb84b0b3a94bfdb075090998e992be363be",
+    "balance": "11600.0000",
+    "reward": "424.2647",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xef870ae7008f3bd808cb47c5bbe287c4972a74e0",
+    "balance": "11009.4327",
+    "reward": "319.3787",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x61305d736c31c2e996b101f3c924b543a0a28b32",
+    "balance": "8935.0640",
+    "reward": "259.2022",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x55eb51ea1dd5a6b235b941ad5a71dc8378871fb8",
+    "balance": "33742.9475",
+    "reward": "1393.9861",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0016dd9cd49cb4c6feb67f1a719edb37afd60e7f",
+    "balance": "11000.0000",
+    "reward": "319.1051",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x4db32f1b39e2c89975c6122d9e904352e968bc3f",
+    "balance": "5605.0000",
+    "reward": "226.1204",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2c4c5933645b2f5514001a7816281485ea4c4280",
+    "balance": "6000.0000",
+    "reward": "184.9359",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x41d99d5f80adbe8ef0eb877cbe7b218afbda4ac5",
+    "balance": "50050.0931",
+    "reward": "3470.2382",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf0478c748428f35ab13a965bb76a170a6359b00b",
+    "balance": "8104.5010",
+    "reward": "249.8022",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb776ab6e2ca552ede1167ffa453d62d7c444c378",
+    "balance": "5136.0000",
+    "reward": "158.3051",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9cfffdfa8d220533b15b7a4b694425d6bf105517",
+    "balance": "5162.6460",
+    "reward": "159.1264",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x4edcd2964a76b63468877a4d4f8b0b3bc26e133f",
+    "balance": "9237.2609",
+    "reward": "320.7234",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2fd1fd25ee243103179bd046777928b0f4882e1a",
+    "balance": "8747.5725",
+    "reward": "269.6234",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6f90c476e6fee4e65608fd1e93d6b9df15f83b36",
+    "balance": "6035.5379",
+    "reward": "186.0313",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2281b977ffb9c8da2f6f91fd9ae74880e141c418",
+    "balance": "10487.0931",
+    "reward": "393.4642",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe903fe4531e9dc5f7c5f2b3f5cd72c1c351a14d7",
+    "balance": "5058.2971",
+    "reward": "155.9101",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7d0d0e6c6b57a116429ab14d08303e8f71b452f4",
+    "balance": "6000.0000",
+    "reward": "195.8145",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x15e841a5964ac7dc78394b2ec5b6616cf05fe821",
+    "balance": "5000.0000",
+    "reward": "337.2361",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xdce3e7e8e8eeb92c6c56ff75197189a2be123847",
+    "balance": "11780.3048",
+    "reward": "384.4591",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x539c82d5cb886c94dd3e2d76dd5c73936c1cf391",
+    "balance": "22254.2717",
+    "reward": "726.2848",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6d0872f1b64702ebc14223dac590d66ce8221116",
+    "balance": "12000.0000",
+    "reward": "391.6290",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x88593107342e073fdb8c54aab81933942f1c0bed",
+    "balance": "5257.5880",
+    "reward": "171.5853",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7944885572ff5be868db1b03cddaf268fff24724",
+    "balance": "7872.7273",
+    "reward": "362.4216",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x93a156d9e075665627f0bf1f250676202c259c38",
+    "balance": "7690.1211",
+    "reward": "343.5283",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x01d776b5d200bb89c0713aa494a30f42c565a57d",
+    "balance": "5678.6202",
+    "reward": "185.3260",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xef9d67db3d19f7c324473435613f3335f515b2ae",
+    "balance": "50175.3503",
+    "reward": "3726.0896",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6cf5e6b088e98b360eec03164928e6d1a86a7157",
+    "balance": "7855.8839",
+    "reward": "256.3826",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9c2c815899b855b40fa9a3ac16df644fb395dd56",
+    "balance": "6704.1028",
+    "reward": "218.7934",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xeb863dbc1c614987b51651353dbbdbdbec3db8a4",
+    "balance": "5350.4942",
+    "reward": "184.3183",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x4b53e317c5fed469d9da4ea1e7ac9694def4e82f",
+    "balance": "5001.7857",
+    "reward": "172.3057",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf6e836cf969455be060f80afbe30aeb878d01a69",
+    "balance": "5134.8025",
+    "reward": "176.8880",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x69a575f1641a8be55442db7b88089f611e3e7c09",
+    "balance": "5189.6712",
+    "reward": "178.7782",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x182cebab47af1302f39a3de67da8ba3945341690",
+    "balance": "27083.3333",
+    "reward": "932.9896",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa0ce26c86a6c63ba5e08fe05d58020f3d268ff74",
+    "balance": "5225.7386",
+    "reward": "180.0207",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3ccb063cbcdbab80f43509919c18b09ec84a03f6",
+    "balance": "5003.1255",
+    "reward": "172.3519",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb9e6916c389ab12b2cb8434c5370ce1a877d8711",
+    "balance": "5050.0000",
+    "reward": "266.2698",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7ae34b385a2ffaf9ac18743aa2ed76a3a41b8350",
+    "balance": "5159.0728",
+    "reward": "187.0780",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x383d28bb242aedd1bc1f9be3c203823f2a5cdd53",
+    "balance": "12000.0000",
+    "reward": "435.1433",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8f79270ea81b7e6d622617a40b72138ace56a281",
+    "balance": "5005.0000",
+    "reward": "181.4910",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbb1100e8786d21c8832313f412a19ebabf397e4b",
+    "balance": "65813.9159",
+    "reward": "5156.5662",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x4c672ba75ebaefbe6b1afe213e7a45ccdb58a1e2",
+    "balance": "11293.7064",
+    "reward": "473.6212",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6950b85a96a3ce8b3659d624f62756fb4c11ddf4",
+    "balance": "103263.7919",
+    "reward": "7978.8269",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb3a8cb824bc0c1b86cdfc8d5d8a5cd9a32b87ec2",
+    "balance": "5507.6460",
+    "reward": "199.7179",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x46091f77b224576e224796de5c50e8120ad7d764",
+    "balance": "5097.6710",
+    "reward": "184.8515",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc3b46906402e947cefae1093d6ec8155fd5cc4c6",
+    "balance": "6829.0160",
+    "reward": "247.6334",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xce26416565660fc111d81d569fb03db2ef5f78f3",
+    "balance": "5047.3940",
+    "reward": "183.0283",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x07f09013b8f1477be0f1285df51d6df49efea83a",
+    "balance": "9029.8187",
+    "reward": "343.8107",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6e797e42ad49cc59df9f8ff796b816d92f9270fb",
+    "balance": "8854.1004",
+    "reward": "468.8008",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9620b15a96c9a9c9c03f4f18787b7d63592243cc",
+    "balance": "5267.0337",
+    "reward": "200.5425",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x59bb2ae2488d60330d31084bade77f74079bf8ac",
+    "balance": "19514.8701",
+    "reward": "857.9353",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa4edd4850bb0bbaf75f775ca3527f290b6c714cb",
+    "balance": "10223.8217",
+    "reward": "389.2724",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x72014009f963291aaa3249ddf3905405c643bd6a",
+    "balance": "33722.1563",
+    "reward": "1448.5549",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xcf5a3c158e87e7964f043081e5ab1f3fb9b2be08",
+    "balance": "6986.6883",
+    "reward": "266.0184",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa55d80095f811c3b353e7a39391dede75ae0d25f",
+    "balance": "5001.7857",
+    "reward": "190.4432",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8a54667477dee9587d9c0255dbf256a9e16238de",
+    "balance": "10189.5634",
+    "reward": "387.9680",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x28167eedc0ceecfb04bc066af8cc3f83c38e9b79",
+    "balance": "20000.0000",
+    "reward": "852.1556",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xcc64dd79d327bb35d02bb813ffde9a2669204df4",
+    "balance": "5006.3636",
+    "reward": "190.6175",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc9af92d327e01c468e2b334e2334f70325ab5069",
+    "balance": "14679.8259",
+    "reward": "652.5983",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x489bfe77d948136138317fcfb7db292c56e80427",
+    "balance": "7229.7911",
+    "reward": "303.4844",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5d350bfea355aaf6e42f501b64df25e7bd256f28",
+    "balance": "39766.1908",
+    "reward": "1669.9283",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x567aa271eaad1ba18bf1b07525e8120eaef02d35",
+    "balance": "6125.0000",
+    "reward": "233.2096",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x221073d2952e63794e24798c543960ac7611671e",
+    "balance": "6000.0000",
+    "reward": "228.4502",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc1b900534ee2e98f8ac782bd9950420a6c51473b",
+    "balance": "5045.4545",
+    "reward": "192.1059",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x66297e6eb78b715fefd6c8a94da38c7a4e4d020a",
+    "balance": "5002.0000",
+    "reward": "190.4513",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa2d515eb2474fe9cbbd8f13749db3efc1f8537c9",
+    "balance": "10404.3700",
+    "reward": "396.1468",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xdc1e5e4b8adacb60dc1726a66885cb3343eb654d",
+    "balance": "5000.0000",
+    "reward": "190.3752",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa9469206473c41646c42a2433437ceaa992c4d54",
+    "balance": "5007.2727",
+    "reward": "190.6521",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x362750794b1e8e71c976fe084a72a969aff96579",
+    "balance": "50000.8104",
+    "reward": "3916.3544",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x454de1e147ae27c120ae56665650a43ef22c19d2",
+    "balance": "8849.0879",
+    "reward": "352.9736",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfb58f3187b75ed8c733e655aa91f7ed84b7d9123",
+    "balance": "5000.0004",
+    "reward": "199.4407",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xec9e489936f60497898b40f3fe44bc22c56b62b9",
+    "balance": "7272.7273",
+    "reward": "290.0955",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x14290920ddf69e07a3b8e5b6a40b51dc75a802c2",
+    "balance": "6148.4448",
+    "reward": "245.2500",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd2263d68072275ccb291f10a4028ebc5ab72223d",
+    "balance": "6000.7273",
+    "reward": "278.9163",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xebf78b93e96aefe3c2c9bc8568513f8288436a4a",
+    "balance": "5008.0968",
+    "reward": "199.7636",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xaa17fa49fd882097ce162fef54d312750c7508b2",
+    "balance": "7001.7857",
+    "reward": "279.2882",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x03240db7605e5b82d82a937667083d6d0b165df3",
+    "balance": "5530.4385",
+    "reward": "220.5989",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc48002594d1609d20c56f2e0740602bc15300df5",
+    "balance": "9221.5148",
+    "reward": "384.5485",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x823d8199dece9103a9096e63fcac3bf650eb736d",
+    "balance": "14759.8692",
+    "reward": "640.5717",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd092e22c7ab8b70ced96fc99bcb6c2c2e5884556",
+    "balance": "5360.0000",
+    "reward": "223.5186",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x319f20df92df7fac58c3a245028dd0ad4aec6c5f",
+    "balance": "9146.0336",
+    "reward": "381.4009",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe1ccd07e60a76bbb539271354ae53a6af3be73f5",
+    "balance": "6354.1904",
+    "reward": "264.9776",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7855649f9d3173e3ca7819accf1600ddc5e80af3",
+    "balance": "17394.9719",
+    "reward": "725.3918",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x08ecfffd63052cc500b308f24494260f7c39f470",
+    "balance": "5040.1356",
+    "reward": "264.7911",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x22d00983153926fc8d978c42ff294fcde643ea28",
+    "balance": "5984.5430",
+    "reward": "249.5628",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5ecdd6df2230ada097e3d91e8961f45e8f89c14c",
+    "balance": "7000.0003",
+    "reward": "332.4164",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x420973737e33973b26460b7dad8c7167d46ad46a",
+    "balance": "6703.7173",
+    "reward": "328.8965",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb26ff727479f442d815ce83b8e3c6b87b2abc88b",
+    "balance": "7073.4558",
+    "reward": "343.2332",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7a0584eafd56e980ef74dd053802b832eabdbbff",
+    "balance": "13501.7857",
+    "reward": "639.0196",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xcbcdca647cfda9283992193604f8718a910b42fc",
+    "balance": "5064.2690",
+    "reward": "211.1863",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf5ed3153ba479e86b3bfe2278c689d35b1045aa7",
+    "balance": "5000.3235",
+    "reward": "208.5197",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5fce8533ac34586542ae079ddc404f2541776c65",
+    "balance": "5451.5829",
+    "reward": "227.3377",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0bae81559a7246e0fd4ad434cd330a60b8ecbf70",
+    "balance": "5034.1262",
+    "reward": "209.9293",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd07bdb3cd7813df5446dd34ed52c4dd3460db4e7",
+    "balance": "5000.3636",
+    "reward": "208.5213",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xae4f2ec42437bfc972fdea52768725d683ad8373",
+    "balance": "5819.5553",
+    "reward": "261.6098",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1efe46abc463ca86e5cb147abecee61e60022008",
+    "balance": "7902.7857",
+    "reward": "338.6232",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1137a36e90b2c800b1638adc93d64d8ad79cd793",
+    "balance": "5001.7857",
+    "reward": "208.5806",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x926944becec23ea59d67a63f8b5cce92e83831d5",
+    "balance": "10000.0000",
+    "reward": "472.7106",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5d3ef18515c2d8637872ca88097bd5eae3520f16",
+    "balance": "6000.0000",
+    "reward": "250.2074",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbe8ff4aeda8232864f52e559ae8752b8411b5c30",
+    "balance": "6704.3109",
+    "reward": "279.5780",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xba600930f2ca762f934e29da488cc5343533618c",
+    "balance": "11238.3338",
+    "reward": "560.7441",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x57fb60ddaf5deee98731cb66fe797eff2e1a083c",
+    "balance": "5005.9238",
+    "reward": "217.8294",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1a99bbd78fd9e9af6474095dfac200de2396fa31",
+    "balance": "5000.0000",
+    "reward": "217.5717",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x33929cbafbd7f2df4b7f38b5dd318d2c788dc564",
+    "balance": "5000.0057",
+    "reward": "217.5719",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x82fcf54657179d8b14c92cb37c20632b2e77cd5e",
+    "balance": "5082.7445",
+    "reward": "221.1722",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6362dc17918e291999aa06403857494434a9df9b",
+    "balance": "12372.2627",
+    "reward": "566.1036",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc9ed06ddce688827020d81041271ca30e3b6539d",
+    "balance": "5091.7021",
+    "reward": "244.3769",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x924e8fc81484781b8057db784266017fce1af136",
+    "balance": "5800.0000",
+    "reward": "252.3831",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7b983b4e1597eabfbe8fb3c4bbce961c0fe79242",
+    "balance": "5005.3666",
+    "reward": "217.8052",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa57f86f183f13e85330541cbf34c47ece1e56f1e",
+    "balance": "5500.0000",
+    "reward": "239.3288",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9a0e30951a916ef100b11b2e93ef0b7552d61adb",
+    "balance": "6545.7273",
+    "reward": "311.2053",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9caaa8d43ac0899fda1fe0d8b3309aa9f856036b",
+    "balance": "5376.8323",
+    "reward": "233.9693",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2b12eaa4d3b71c95e6259b33d3d4ddaafa65c7a9",
+    "balance": "5470.8087",
+    "reward": "238.0586",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0d1ae7d79b9a3e52e4c700450620f80910163c09",
+    "balance": "25000.7660",
+    "reward": "1450.5166",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbfa616c9779fa08d9b6c928b4a9c63a2d635a50d",
+    "balance": "11919.2613",
+    "reward": "518.6587",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbeb5df7e9b30823c5af2126ad4372a91c5268f40",
+    "balance": "11025.5750",
+    "reward": "479.7705",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x282e82e039e72dc411d2553ca1ad7768dfd8e23b",
+    "balance": "5222.3287",
+    "reward": "227.2461",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9f135a9ae682f42ed3db61f04fba7ded8a0ffef5",
+    "balance": "5045.4545",
+    "reward": "219.5496",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x17434dcadc65191fee6a0c7e57a9ece8a23cb7bb",
+    "balance": "7272.7273",
+    "reward": "316.4679",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1602da022efb9f146d6433f61381dff972626db3",
+    "balance": "5334.2486",
+    "reward": "232.1163",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1051c327584c96d9a9351d372ae4e101e2413d1f",
+    "balance": "12000.0000",
+    "reward": "522.1720",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2c1f168639c89b70ce7b0b55a032c6cb97df9c45",
+    "balance": "5086.9339",
+    "reward": "221.3545",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7b98a9e1197e4505774624125be58427f8c20d24",
+    "balance": "5175.7661",
+    "reward": "225.2200",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xab36f3141e1b4e4c77e931924a1337000c65458c",
+    "balance": "5010.0000",
+    "reward": "218.0068",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfa2b6e448bffdbfa37ddc1565569f3f7085290fa",
+    "balance": "5740.9564",
+    "reward": "249.8139",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa75f2be155e38e67be4bf669cfb7a7993075e108",
+    "balance": "5928.8506",
+    "reward": "257.9900",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd6cfca78fc4c0f4582940fd2d574a58c397cdcd1",
+    "balance": "26983.0892",
+    "reward": "1174.1511",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf63a2f66c36740adfb4493da88d7fa93c5e51ce0",
+    "balance": "5000.0000",
+    "reward": "217.5717",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf44bfa0d806a363f25ed188809469d14ca4e6b31",
+    "balance": "6000.0000",
+    "reward": "300.1673",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xecb69fb9af5add28ae3b10dafdb034242a9073c6",
+    "balance": "5000.0000",
+    "reward": "217.5717",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa2af700cc5a5137ae923202b6a69b87d5e245f41",
+    "balance": "19186.4213",
+    "reward": "834.8843",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3179799e0792fa12d0cbfecb03d493856cafe5b7",
+    "balance": "6607.7373",
+    "reward": "287.5313",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe02328aba353484a9a02c17b89f8430808420af2",
+    "balance": "5119.8432",
+    "reward": "222.7866",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x7e8da17bb0613c05bb779c88254e91a8ae157874",
+    "balance": "5000.0000",
+    "reward": "217.5717",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x07538aa20a4f0439eb7c8ec59c7be44041c65f5d",
+    "balance": "12000.0000",
+    "reward": "522.1720",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb30ca7383dbd1ac31459e8e1de3bcb022a1db001",
+    "balance": "5600.0000",
+    "reward": "243.6803",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd7d8c78ed3bb6d7280e4fb8d691a5b2164814f66",
+    "balance": "7185.5288",
+    "reward": "312.6735",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x312f950cab8104a57ebdfd65f80b3c693d5f4c39",
+    "balance": "5973.4480",
+    "reward": "270.0988",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x60fead7e9e64eeef59e8100cec7ebe251515534d",
+    "balance": "5012.2371",
+    "reward": "218.1041",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x399ceef8895505e358bf1c77f69d31b875a202d1",
+    "balance": "13108.1751",
+    "reward": "570.3935",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf8c219124e424a3959221bfa8eb589cb7dc6a06d",
+    "balance": "8272.0000",
+    "reward": "359.9505",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2e83e14663ce00b6a12883240ae4ba7240848f52",
+    "balance": "5116.4137",
+    "reward": "222.6373",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x4d742c81109eb14acd08108f9a304244cb44ebb5",
+    "balance": "8552.8951",
+    "reward": "372.1735",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xbcb6aa2c75422c51d4fd20f1a3469bcb3cc5badc",
+    "balance": "5196.4686",
+    "reward": "226.1209",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x68684d6a0131d31d0432fc345388ac77b0740cb4",
+    "balance": "8000.5130",
+    "reward": "375.8288",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa4da4018c3067920d8d15061e26eb51336d54782",
+    "balance": "5155.0000",
+    "reward": "233.6629",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x53ef26b20e9ecd39af57374192cf90f6b4a462dc",
+    "balance": "6758.5588",
+    "reward": "306.3481",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x3cb49f5aed1536c6723d631061c6d3c5c5f504d6",
+    "balance": "5030.1410",
+    "reward": "228.0034",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x962f4efa70236eb4f265593dc869501a60ca3223",
+    "balance": "17549.5795",
+    "reward": "795.4773",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2b87df4d950856e824b992e04d1f6cd77c60eb62",
+    "balance": "5001.8651",
+    "reward": "226.7217",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x41ca37052d6f6c5ff804cc037551f1533a6fdc52",
+    "balance": "5045.4545",
+    "reward": "228.6975",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x38ba1bfd3fa2ba0658a1679c7810cbe91920b234",
+    "balance": "5000.4857",
+    "reward": "226.6592",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xed66f06aff54cce77b19e887d56b6747d202cacb",
+    "balance": "5127.6580",
+    "reward": "232.4235",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x17a5907d12a1a95ebc2aa9b73c67248f1321345d",
+    "balance": "5001.4545",
+    "reward": "226.7031",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd7533825a0c23b26a9351e374b0a5467d01487ee",
+    "balance": "5127.6580",
+    "reward": "232.4235",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0710df665b537cdb59205391fcd0e78d4b9f7e1e",
+    "balance": "5000.0273",
+    "reward": "239.8245",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x88fe9af4a167681e413e5d890a485f64cb082696",
+    "balance": "5000.0000",
+    "reward": "226.6371",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x70d5c1e3845007072b371b5d5188a2b728bf2f62",
+    "balance": "5700.3738",
+    "reward": "258.3833",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe24a71ccae06ff9138b2d8bd1eecb2a7a79bc08b",
+    "balance": "50044.1060",
+    "reward": "4695.2188",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xdb1804adfacaab63a0605be72fbbb85813d312d2",
+    "balance": "5048.4948",
+    "reward": "228.8353",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0c872ce676fcfaf6e8701518f5a1a67f9f6d6402",
+    "balance": "8872.7273",
+    "reward": "415.3641",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x429feffcca0f40c66efb83786fd5c122ace7700a",
+    "balance": "7117.3193",
+    "reward": "322.6098",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x86e73d767e4c45a58b2abacb3f37a68945717496",
+    "balance": "9000.0086",
+    "reward": "425.2771",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x91d65746479297429d648e0bd29a657e58e654bf",
+    "balance": "5236.3636",
+    "reward": "237.3509",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xc01c371e62415b0debe39d9154fb1c1083e574aa",
+    "balance": "10426.7593",
+    "reward": "472.6182",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfacaee8fa4585bfeba2d8c014549bc0f49ab1e5e",
+    "balance": "12000.0000",
+    "reward": "543.9291",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x737e2a0cda62c02c8c8bb440267048af08cd4b87",
+    "balance": "5557.2450",
+    "reward": "251.8956",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0378a3079ff586da27369eef35b1d8ab4be1402a",
+    "balance": "9662.5573",
+    "reward": "437.9789",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfe6e81ebb715d0780134cb8905f38a608d376df1",
+    "balance": "12000.0000",
+    "reward": "543.9291",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x778c029675d3e2435cf4c207e981d37c2174bec8",
+    "balance": "14893.6160",
+    "reward": "675.0893",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x95220549543e671622dc6edaaf08093a9c62dccd",
+    "balance": "8752.8477",
+    "reward": "396.7441",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x83dcc4a2f818a34bcf6ec4150e640c0c10321745",
+    "balance": "12000.0000",
+    "reward": "543.9291",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd74f8e520f61d0fddbf95852086cb0f4c53a8401",
+    "balance": "5297.1142",
+    "reward": "240.1046",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x425572aa3b3a4de99552179ba05046a89ee36f73",
+    "balance": "59566.7467",
+    "reward": "5616.0154",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x19f457892c450d658b93ef77b08908159f830e17",
+    "balance": "145435.8177",
+    "reward": "13711.8417",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x62293e6c6b80e710901c85a1e461907f7a870a82",
+    "balance": "15142.1611",
+    "reward": "713.8094",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x91dca388a5080f6b6aff0b4822a2cb5cfe56e18b",
+    "balance": "11915.2872",
+    "reward": "561.6929",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2b177fdb87a9bab54b55f1eff89b0cf785513403",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x90ca05c876f48a9ca51fe0e81e3181c91a3ae260",
+    "balance": "12000.0000",
+    "reward": "565.6863",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x9709d700c0650e6033724e3205c8a8660c4cc787",
+    "balance": "17063.9457",
+    "reward": "804.4034",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x619d4309c92eafb9c5e2d2e1d806a4a1df5a211e",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf6405898b0cf760c1a6e6c79827a44422c5495b1",
+    "balance": "8871.2633",
+    "reward": "418.1960",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x98e36c628bfc856d42e5f7d8ef527b459f4c598f",
+    "balance": "6000.0000",
+    "reward": "282.8432",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xf0769f107af6034901df8dfd5d37cdffdfd86d52",
+    "balance": "5498.2767",
+    "reward": "259.1917",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe67faab7a523c467e214c170abbffba8fdf57afc",
+    "balance": "30594.1698",
+    "reward": "1442.2252",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xebdca98d2980362f1fa6ead905a97f2f256f2a5c",
+    "balance": "6000.0000",
+    "reward": "282.8432",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x64993975afa582cef667a6edf5ec6d89a60e1feb",
+    "balance": "11272.7273",
+    "reward": "531.4023",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x88baf72dd5539b3da71bfce86c486a6cf89836f5",
+    "balance": "31803.0441",
+    "reward": "1499.2122",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd1cb4d36861b0aca8bd25bad0401c0764e47ad3c",
+    "balance": "5038.0000",
+    "reward": "237.4940",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xaf63977a00d25a301c21d4ad076bc10da23f6f63",
+    "balance": "12765.9560",
+    "reward": "601.7939",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xe29b1ed79d615c60c7422918765642f5e1c23229",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0058ba11e7c290498db7f3200a741efbbae9ab22",
+    "balance": "8000.0130",
+    "reward": "377.1248",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xdb6ad915922537007c389e2622fe75121ad31984",
+    "balance": "10638.0000",
+    "reward": "501.4809",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8f4ef0122c322f07cc8c8c7ded7f8ea87d2a2c0b",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x95fe3c0101b4348af50d3989810be0ccb0ddd81e",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1b60a1ce796f74500afa58af5b10fe25d7f9b0a9",
+    "balance": "23623.8882",
+    "reward": "1113.6425",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8358305333cbb564148cf9fb44f3134f2208421a",
+    "balance": "8872.7273",
+    "reward": "418.2650",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa7e5e873c6ac654296109d34e99d6378cb4b94d4",
+    "balance": "5000.0000",
+    "reward": "235.7026",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa721afd22d8062ed638f008746d3914788201601",
+    "balance": "6972.4809",
+    "reward": "328.6864",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x306f991f8dbe810c37cdbacf6d74a25eb1de7da5",
+    "balance": "31051.9204",
+    "reward": "1463.8038",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8a74cf868e96eac3ff9d2f56af23836470a9ffcb",
+    "balance": "6000.0000",
+    "reward": "282.8432",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd4ce1744799b189c7a19a3d3ce0aac8de60f781b",
+    "balance": "27763.1579",
+    "reward": "1308.7698",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x39fbda59b08a444e17f6fa4732d800b26a2b4a8b",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb7ffcf4295b7476e12c632fd0b769a7cd5e23321",
+    "balance": "7253.5011",
+    "reward": "341.9338",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x8292d9ed77616b882ddc561a7767c1a8f8afa811",
+    "balance": "9961.1349",
+    "reward": "469.5731",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xa1aa2698d27adc04bf2a02be61d9e60c024fb073",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xab0aa5220ce503414380856080059062e3cdc937",
+    "balance": "20000.0000",
+    "reward": "942.8105",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2cd0b1b8f074b1b136f6dd9969b9e971e182ad63",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x90bc193fd8ac86c0a6b4ec2f98d39381ceac0d38",
+    "balance": "22185.3423",
+    "reward": "1045.8287",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x01d2a1f4f7e78f72976fbff57a8e12c28be3eb1e",
+    "balance": "8511.0000",
+    "reward": "401.2130",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xdb1e5883d636ecb81eb7dfb111e7ba5fc1f4f2f7",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1ca634fb43d29fb9e3e0422d14eef3e670f93716",
+    "balance": "11402.2168",
+    "reward": "537.5065",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x39f4e25e378f3e7aaee1999c39f1df4b5d08ec9f",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x72a17506953d0fec611052b842d89bbb10f4d2b9",
+    "balance": "6671.7805",
+    "reward": "314.5112",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x5a4b07a3b0e3ce0fc7cb9f8d69aedd3ff4eb88b2",
+    "balance": "5101.3460",
+    "reward": "240.4801",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6dd23dc5e52ed4dd169917ad368e7267624061ba",
+    "balance": "6158.5666",
+    "reward": "290.3181",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x6a20fc939f492256150b8926de06eda0317ea286",
+    "balance": "7082.3516",
+    "reward": "333.8658",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x0d348618cb4f6f3f9b117647e4166030b67dadc1",
+    "balance": "10264.2777",
+    "reward": "483.8634",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xb335c7cecfb42c1650113f253d47b2567b734b44",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x1a42366f8ced991f4b5c01d8a4b755cb240cbb2e",
+    "balance": "7272.7273",
+    "reward": "342.8402",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x2cb756a40cbefd53e5a1566b65811da80d4a9993",
+    "balance": "5336.6125",
+    "reward": "261.2465",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xd44020cfdfc196174bb118ab140438c3ed3eeedb",
+    "balance": "6877.2873",
+    "reward": "336.6681",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0x350aa8e00a0fd653754c40e9fd9ab6f8bbd3ba66",
+    "balance": "6780.1457",
+    "reward": "331.9127",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  },
+  {
+    "address": "0xfacb29be46cca69dcb40806ecf2e4c0bb300ba73",
+    "balance": "15354.0627",
+    "reward": "751.6370",
+    "bonus_duck": "0",
+    "bonus_lp": "0",
+    "bonus_long_term_months": "0"
+  }
+]

@@ -1,6 +1,5 @@
 import { Component, NgZone, OnDestroy, OnInit } from '@angular/core';
 import { ContractService } from '../../services/contract.service';
-import { SmartInterval } from '../../../assets/js/custom-utils';
 import { AddressBookService } from 'src/app/services/address-book.service';
 
 @Component({
@@ -11,7 +10,7 @@ import { AddressBookService } from 'src/app/services/address-book.service';
 export class BoxesSentListComponent implements OnInit, OnDestroy {
 
     paginatedBoxes = null;
-    paginationText = '0-0/0';
+    paginationText = '0-0 / 0';
     
     order = 'desc';
     state;
@@ -26,11 +25,7 @@ export class BoxesSentListComponent implements OnInit, OnDestroy {
     private subscriptions = [];
 
     private pageIndex = 0;
-    private pageSize = 20;
-    
-    private boxesIntervalCycleDelay = 5e3;
-    private boxesIntervalStartDelay = 1e3;
-    private boxesInterval;
+    private pageSize = 15;
     
     private fetchedBoxes;
     private filteredBoxes;
@@ -44,70 +39,19 @@ export class BoxesSentListComponent implements OnInit, OnDestroy {
 
     ngOnInit() {
 
-        // Getting a dictionary of the address book to put names on boxes
-        this.addressBookMap = this.addressBookServ.getAddressesMap();
-
-        // Setting up the interval for getting boxes
-        // This can be controlled with .start() and .stop()
-        this.boxesInterval = new SmartInterval(
-            async () => {
-
-                let boxes = await this.contractServ.getOutgoingBoxes();
-
-                // NgZone tells Angular to keep the UI up to date
-                this.ngZone.run(() => {
-
-                    if (boxes.length === 0) {
-                        this.message = 'There are no boxes';
-                        return;
-                    }
-
-                    // Enriching boxes with presentational fields
-                    this.message = null;
-                    this.fetchedBoxes = boxes.map(box => ({
-                        addressBookName: this.addressBookMap[box.recipient],
-                        readableTimestamp: new Date(box.timestamp)
-                            .toLocaleDateString(
-                                undefined,
-                                { year: 'numeric',
-                                  month: 'short',
-                                  day: 'numeric',
-                                  hour: '2-digit',
-                                  minute: '2-digit' }),
-                        sendTokenInfo: this.contractServ
-                            .tokensMap[box.sendToken],
-                        sendDecimalValue: this.contractServ
-                            .getTokenDecimalValueFromWei(
-                                box.sendToken,
-                                box.sendValue),
-                        requestTokenInfo: this.contractServ
-                            .tokensMap[box.requestToken],
-                        requestDecimalValue: this.contractServ
-                            .getTokenDecimalValueFromWei(
-                                box.requestToken,
-                                box.requestValue),
-                        ...box
-                    }));
-                    this.filterBoxes();
-                });
-            },
-            this.boxesIntervalCycleDelay,
-            this.boxesIntervalStartDelay
-        );
-
-        // Setting up the reactive code to load and reload boxes
+        // Setting up the reactive code to show some messages to the user and eventually load the boxes into the component
         [
             this.contractServ.chainId$,
             this.contractServ.isChainSupported$,
             this.contractServ.selectedAccount$,
             this.contractServ.isAppReady$,
-            this.contractServ.boxInteraction$
+            this.contractServ.boxInteraction$,
+            this.contractServ.outgoingBoxes$
         ].forEach(obs => 
             this.subscriptions.push(
                 obs.subscribe(() => {
 
                     // Resetting the component
-                    this.boxesInterval.stop();
                     this.paginatedBoxes = null;
                     this.filteredBoxes = null;
                     this.fetchedBoxes = null;
@@ -120,29 +64,47 @@ export class BoxesSentListComponent implements OnInit, OnDestroy {
 
                     // Calculating a message for the user
                     if (!this.chainId || !this.selectedAccount) {
-                        this.message = 'Connect your wallet';
+                        this.message = 'Please connect your wallet first!';
                         return;
                     }
                     if (!this.isChainSupported) {
-                        this.message = 'Wrong network, use Rinkeby or BSC Testnet';
+                        this.message = 'Wrong network – Please use Ethereum, BSC or Polygon!';
                         return;
                     }
                     if (!this.isAppReady) {
-                        this.message = 'Initializing the Smart Contract...';
+                        this.message = 'Initializing ethbox smart contract...';
                         return;
                     }
 
-                    // Starting the boxes interval
-                    this.message = 'Loading your boxes...';
-                    this.boxesInterval.start();
+                    this.message = 'Loading...';
+
+                    // Get boxes and the address book
+                    let boxes = this.contractServ.outgoingBoxes$.getValue();
+                    this.addressBookMap = this.addressBookServ.getAddressesMap();
+
+                    if (!boxes) {
+                        return;
+                    }
+
+                    if (boxes.length === 0) {
+                        this.message = 'No outgoing transactions!';
+                        return;
+                    }
+
+                    this.fetchedBoxes = boxes
+                        .map(box => ({
+                            addressBookName: this.addressBookMap[box.recipient],
+                            ...box
+                        }));
+
+                    this.filterBoxes();
                 })));
     }
 
     ngOnDestroy() {
 
-        // When the component gets destroyed unsubscribe from everything and stop the boxes interval, to prevent memory leaks
+        // When the component gets destroyed unsubscribe from everything to prevent memory leaks
         this.subscriptions.forEach(s => s.unsubscribe());
-        this.boxesInterval.stop();
     }
 
     onPaginationPreviousClick() {
@@ -163,15 +125,49 @@ export class BoxesSentListComponent implements OnInit, OnDestroy {
         this.updatePagination();
     }
 
-    updatePagination() {
+    async updatePagination() {
 
         let start = this.pageIndex * this.pageSize,
             end = this.pageIndex * this.pageSize + this.pageSize;
         if (end > this.filteredBoxes.length) {
             end = this.filteredBoxes.length;
         }
-        this.paginationText = `${start + 1}-${end}/${this.filteredBoxes.length}`;
-        this.paginatedBoxes = this.filteredBoxes.slice(start, end);
+        this.paginationText = `${start + 1}-${end} / ${this.filteredBoxes.length}`;
+        let boxesInView = this.filteredBoxes.slice(start, end);
+
+        // For performance is better to enrich boxes here (just those boxes in the view)
+        for (let box of boxesInView) {
+
+            box.readableTimestamp = new Date(box.timestamp)
+                .toLocaleDateString(
+                    undefined, // Fallbacks to the user's locale
+                    {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    }
+                );
+
+            box.sendTokenInfo = await this.contractServ.getTokenData(box.sendToken);
+            box.sendDecimalValue = this.contractServ.weiToDecimal(
+                box.sendValue,
+                box.sendTokenInfo.decimals);
+            
+            if (box.requestToken) {
+                box.requestTokenInfo = await this.contractServ.getTokenData(box.requestToken);
+                box.requestDecimalValue = this.contractServ.weiToDecimal(
+                    box.requestValue,
+                    box.requestTokenInfo.decimals);
+            } else {
+                box.requestValue = '0';
+            }
+        }
+
+        this.message = null; // Remove "Loading..." message
+
+        this.paginatedBoxes = boxesInView;
     }
 
     filterBoxes() {

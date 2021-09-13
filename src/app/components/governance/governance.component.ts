@@ -10,7 +10,7 @@ import { LoadingIndicatorService } from 'src/app/services/loading-indicator.serv
 })
 export class GovernanceComponent implements OnInit {
 
-    datetime = new Date().toUTCString();
+    datetime = new Date().toUTCString().replace("GMT", "UTC");
     governance = [];
     community = [];
     pageData;
@@ -22,7 +22,7 @@ export class GovernanceComponent implements OnInit {
 
     async ngOnInit() {
 
-        this.clockTimer = setInterval(() => this.datetime = new Date().toUTCString(), 1000);
+        this.clockTimer = setInterval(() => this.datetime = new Date().toUTCString().replace("GMT", "UTC"), 1000);
 
         this.loadingIndicatorServ.on();
         Promise.all([
@@ -44,8 +44,8 @@ export class GovernanceComponent implements OnInit {
         for (let p of proposals) {
             p._id = 'proposal_' + Math.random().toString(36).substring(2);
             p._isCollapsed = true;
-            p.startDatetime = new Date(p.time_start * 1e3).toUTCString();
-            p.endDatetime = new Date(p.time_end * 1e3).toUTCString();
+            p.startDatetime = new Date(p.time_start * 1e3).toUTCString().replace("GMT", "UTC");
+            p.endDatetime = new Date(p.time_end * 1e3).toUTCString().replace("GMT", "UTC");
             p.hasExpired = Date.now() > p.time_end * 1e3;
 
             p.isEligible = false;

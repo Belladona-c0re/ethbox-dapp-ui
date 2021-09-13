@@ -20,20 +20,23 @@ export class BoxSentComponent {
         public contractServ: ContractService,
         public loadingIndicatorServ: LoadingIndicatorService) { }
 
-    async onBoxToggle() {
+        async onBoxToggle() {
 
-        this.isExpanded = !this.isExpanded;
-
-        // Only updates balances when expanded
-        if (this.isExpanded) {
-            this.sendTokenBalance = await this.contractServ
-                .getBalanceOf(this.box.sendTokenInfo.address);
-            this.requestTokenBalance = await this.contractServ
-                .getBalanceOf(this.box.requestTokenInfo.address);
-            
-            console.log('send token balance', this.sendTokenBalance);
-            console.log('request token balance', this.requestTokenBalance);
+            this.isExpanded = !this.isExpanded;
+    
+            // Only updates balances when expanded
+            if (this.isExpanded) {
+                this.sendTokenBalance = await this.contractServ
+                    .getTokenBalance(this.box.sendTokenInfo.address);
+                
+                if (this.box.requestToken) {
+                    this.requestTokenBalance = await this.contractServ
+                        .getTokenBalance(this.box.requestTokenInfo.address);
+                }
+                
+                console.log('send token balance', this.sendTokenBalance);
+                console.log('request token balance', this.requestTokenBalance);
+            }
         }
-    }
 
 }
